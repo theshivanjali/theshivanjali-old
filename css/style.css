@@ -1,0 +1,223 @@
+html{
+  height: 100%;
+}
+
+body {
+    margin-top: 105px;
+    background-color: rgba(7,7,7); 
+    color: #fff; 
+  
+  } 
+  .navbar {
+    border-bottom:#ac38f4 3px solid;
+    background-color: rgba(0, 0, 0, 0.7); 
+    
+  }
+  
+  .navbar .nav-item {
+    font-size: 1.4em;
+    padding-right: 20px;
+    font-family: 'Coming Soon', cursive;
+  }
+  
+  .fa {
+    font-size: 1em;
+    color: #ac38f4;
+    
+  }
+
+
+/*------------------  Fonts -------------------*/
+
+.permanent{
+
+  font-family: 'Permanent Marker', cursive;
+  letter-spacing: 2px;
+}
+   .coming {
+  
+    font-family: 'Coming Soon', cursive;
+  }
+  
+  .skranji{
+    font-family: 'Skranji', cursive;
+  }
+  
+
+  * { color:#fff; text-decoration: none;}
+  
+  #home-section {
+    background: url("../img/bg.jpg") no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    min-height: 700px;}
+  
+    #home-section .dark-overlay {
+      background-color: rgba(0, 0, 0, 0.7);
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+       min-height: 826px;
+     } 
+  
+    #home-section .home-inner {
+        text-align: left;
+        padding: 200px;
+        margin-top: 200px;
+      padding-top: 10em; 
+    text-decoration: none;}
+        
+  .border-purple {
+
+    border-top: #ac38f4 3px solid;
+
+  }
+
+/*---------------------resume-----------------*/
+
+.ptext{
+
+  font-family: 'Arvo', serif;
+  font-size: 18px;
+
+}
+
+.progress {
+  height: 30px;
+}
+
+
+.fbinfo p, .emailinfo p, .iginfo p, .linkedinfo p{
+  font-size: 25px;
+}
+
+
+.emailinfo{
+  display: none;
+  font-family: 'Coming Soon', cursive;
+  text-align: center;
+}
+
+  .emailinfo h3,
+  .emailinfo span {
+    color: #B23121;
+    font-weight: bold;
+  }
+
+.fbinfo {
+  display: none;
+  font-family: 'Coming Soon', cursive;
+  text-align: center;
+
+}
+  .fbinfo h3,
+  .fbinfo span{
+    color: #3b5998;
+    font-weight: bold;
+
+  }
+
+  .card-body {
+    padding: 5px !important;
+  }
+
+  .welcome h3 {
+    font-weight: bold;
+    font-size: 30px;
+    color: #ccff66;
+  }
+
+#contact{
+  overflow: hidden;
+}
+
+.iginfo{
+  display:none;
+  font-family: 'Coming Soon', cursive;
+  text-align: center;
+}
+    .iginfo h3, .iginfo span{
+      color: #d62976;
+      font-weight: bold;
+    }
+
+.linkedinfo{
+  display: none;
+  font-family: 'Coming Soon', cursive;
+  text-align: center;
+}
+    .linkedinfo h3, .linkedinfo span{
+      color: #3b5998;
+      font-weight: bold;
+    }
+
+
+
+
+.social-links{
+  transition: 0.5s ease-out;
+}
+
+/* Hidden Hover */
+
+i.fa-facebook:hover ~ .fbinfo {
+  display: block;
+}
+
+i.fa-facebook:hover {
+  color: #3b5999;
+  transform: rotatez(30deg) scale(1.2, 1.2);
+}
+
+
+i.fa-facebook:hover ~ .welcome {
+  display: none;
+}
+
+
+i.fa-linkedin:hover ~ .linkedinfo {
+  display: block;
+}
+
+i.fa-linkedin:hover {
+  color: #3b5998;
+  transform: rotatez(30deg) scale(1.2, 1.2);
+}
+
+
+i.fa-linkedin:hover ~ .welcome {
+  display: none;
+}
+
+i.fa-instagram:hover ~ .iginfo {
+  display: block;
+}
+
+i.fa-instagram:hover {
+ 
+  color:#d62976;
+  transform: rotatez(30deg) scale(1.2, 1.2);
+}
+
+
+i.fa-instagram:hover ~ .welcome {
+  display: none;
+}
+
+i.fa-envelope:hover ~ .emailinfo {
+  display: block;
+}
+
+i.fa-envelope:hover {
+  color: #B23121;
+  transform: rotatez(30deg) scale(1.2, 1.2);
+}
+
+
+i.fa-envelope:hover ~ .welcome {
+  display: none;
+}
+
+
+
